@@ -1,5 +1,8 @@
+def greet(name):
+    print(f"Hello {name}, welcome to version 2.0")
+
 def main():
-    print("Hello from version 1.0")
+    greet("User")
 
 if __name__ == "__main__":
     main()
